@@ -1,0 +1,277 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+            text-align: -webkit-center;
+
+        }
+
+        body {
+            font-family: "Open Sans", sans-serif;
+
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-left: -15px;
+            padding-right: -15px;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+
+        header {
+            position: relative;
+
+        }
+
+        header .container {
+            align-items: flex-end;
+            display: flex;
+            justify-content: space-between;
+            min-height: 97px;
+            min-height: 70vh;
+            background-position: center;
+            background-image: url("./img/تصميم-شعار-محل-ملابس-1200x900.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+
+
+        .nv-log img {
+
+            width: 50px;
+            border-radius: 50%;
+        }
+
+        .nv-log {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 30px;
+            margin-left: 20px;
+        }
+
+
+
+        .nv-b ul {
+            display: flex;
+            justify-items: center;
+            justify-content: center;
+            margin-right: 30px;
+            margin-bottom: 30px;
+
+        }
+
+        .nv-b li {
+            padding-right: 50px;
+
+        }
+
+        .nv-b li a span {
+            font-size: 20px;
+            color: rgb(238, 230, 230);
+
+        }
+
+        .nv-b li.active {
+            border-bottom: 2px salmon;
+        }
+
+        .nv-log h3 {
+            color: white;
+            font-size: 20px;
+            margin-left: 20px;
+        }
+
+
+        .nv-b li a:hover {
+            border-bottom: 1px solid rgb(0, 0, 0);
+            transition: 0.3s;
+        }
+
+
+        td {
+            justify-content: space-between;
+            margin-right: 20px;
+            position: relative;
+            width: 0%;
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+
+        .x {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .v {
+            width: 300px;
+            height: 30px;
+        }
+
+        .h {
+            width: 300px
+        }
+
+        .t {
+            background-color: rgb(28, 24, 24);
+            color: rgb(44, 110, 168);
+            width: 80px;
+            height: 30px;
+            margin-left: 30px;
+        }
+
+        .n {
+            color: rgb(125, 105, 105);
+            line-height: 1.8;
+        }
+
+        .l {
+            width: 500px;
+        }
+
+        .q {
+            color: rgb(90, 80, 80);
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+
+        <header>
+            <nav class="  container">
+                <a href="" class=" nv-log">
+                    <img src="./img/simple-house-logo.png" alt="" />
+                    <h3>City Stars Clothing</h3>
+                </a>
+                <div class="nv-b">
+                    <ul>
+                        <li class="nv-ss"><a href="home.html" class="nv-nk"><span>Home</span></a></li>
+                        <li class="nv-ss"><a href="about.html" class="nv-nk"><span>About</span></a></li>
+                        <li class="nv-ss active"><a href="contact.html" class="nv-nk"><span>Contact</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <br>
+        <h1 align="center">Contact Page</h1>
+        <p align="center" style="color: rgb(0, 0, 0);">This is <b style="color: rgb(228, 18, 18);">Simple Contact
+                Form</b> to send
+            email our store inbox.</p>
+        <br>
+        <br>
+        <table>
+            <tr>
+                <td>
+                    <form action="" method="POST" align="center">
+                        <div>
+                            <input type="text" name="name" required placeholder="Name" class="v" />
+                        </div>
+                        <br>
+                        <div>
+                            <input type="email" name="email" required placeholder="Email" class="v" />
+                        </div>
+                        <br>
+                        <div>
+                            <textarea rows="8" name="message" required placeholder="Message" class="h"></textarea>
+                        </div>
+                        <br>
+                        <div style="text-align: end;">
+                            <button type="submit" class="t">
+                                Send
+                            </button>
+                        </div>
+                    </form>
+                </td>
+
+                <td>
+                    <div align="center">
+                        <h3 align="left">Our Address</h3>
+                        <br>
+                        <address align="left">
+                            gaza ,palestine.
+                        </address>
+                        <br>
+                        <br>
+                        <a href=" tel:+972594268215">
+                            +972594268215
+                        </a>
+                        <br>
+                        <br>
+                        <a href="mailto: mhmad123331@outlook.sa">
+                            mhmad123331@outlook.sa </a>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div align="center">
+            <h2>FAQs</h2>
+            <p class="n">Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br>
+                Expedita quibusdam nam, porro amet quos
+            </p>
+        </div>
+        <br>
+
+        <fieldset class="l">
+            <div algin="center" class="x">
+                <label for="w" class="q">1. Fusce eu lorem et dui #09C maximus
+                    varius?</label>
+                <input id="w" type="checkbox" name="s" value="windows">
+            </div>
+        </fieldset>
+        <br>
+        <fieldset class="l">
+            <div class="x">
+                <label for="li" class="q">2. Vestibulum #999 ante ipsum primis in faucibus orci?</label>
+                <input id="li" type="checkbox" name="s" value="lunix">
+
+            </div>
+        </fieldset>
+        <br>
+        <fieldset class="l">
+            <div class="x">
+                <label for="s" class="q">3. Can I redistribute this template as a ZIP file?</label>
+                <input id="s" type="checkbox" name="s" value="second">
+            </div>
+        </fieldset>
+        <br>
+        <fieldset class="l">
+            <div class="x">
+                <label for="s" class="q">4. Ut ac erat sit amet neque efficitur faucibus et
+                    in
+                    lectus?</label>
+                <input id="s" type="checkbox" name="s" value="second">
+            </div>
+        </fieldset>
+        <br>
+        <br>
+        <p align="center">Copyright &copy; 2020 Simple House</p>
+
+    </div>
+</body>
+
+</html>
